@@ -21,7 +21,7 @@ def about(request):
         request,
         "HelloDjangoApp/about.html",
         {
-            'title' : "About HelloDjangoApp",
+            'title' : "About Page",
             'content' : "Example app page for Django."
         }
     )
